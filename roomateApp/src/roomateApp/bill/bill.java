@@ -1,7 +1,9 @@
 /**
  * 
  */
-package roomateApp.bills;
+package roomateApp.bill;
+
+import roomateApp.biller.biller;
 
 /**
  * @author marke_000
@@ -9,7 +11,11 @@ package roomateApp.bills;
  */
 public class bill {
 	
-	public bill(){
-			
+	private biller source;
+	private float amount;
+	
+	public bill(biller source, float amount){
+			this.source = source;
+			this.amount = amount;
 	}
 }

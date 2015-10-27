@@ -5,4 +5,4 @@
  * @author marke_000
  *
  */
-package roomateApp.bills;
+package roomateApp.bill;
